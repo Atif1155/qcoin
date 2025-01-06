@@ -104,49 +104,60 @@
             .task h4 {
                 font-size: 16px;
             }
-           
-            
         }
     </style>
 </head>
 <body>
+   
+    <br><br>
+
+
+    <div id="balance-container"><h2><b></b></h2>
+        <span id="balance">0</span>🦴 total dogs
+    </div>
     <br>
 
-    <div id="balance-container"><h2><b>💸</b></h2><BR>
-        <span id="balance">0</span> 🦴 your total qcoin
-        <br>    <br>
-    </div><h2><b>comming soon !!</b></h2>
-   
-    
-    <br>
-       
-        <a href="detail.html" class="nav-item"> 
-            <i class="fas fa-info-circle"></i> 
-            
-           <span>DETAILS</span>
-        </a>
-        
-       <BR>
     <div class="task-container">
         <div class="task">
             <div class="task-detail">
                 <div class="task-image">
-                    <img src="material/images/ton.png" width="45px" alt="">
+                    <img src="material/images/qcoin.png" width="45px" alt="">
                 </div>
                 <div>
-                    <h4>Link your wallet </h4>
+                    <h4>claim rewards</h4>
                     <div class="task-data">
                         <img src="material/images/qcoin.png" width="20px" alt="Coin Icon">
-                        <h5>💳</h5>
+                        <h5>300</h5>
                     </div>
                 </div>
             </div>
-           <button onclick="window.location.href='wat.html'">CONNECT</button>
-            
-
+            <button class="task-button" onclick="completeTask(300, 'reword.html')">🦴 claim</button>
         </div>
-        <br> <br>
-        <img src="material/images/qcoin.png" width="50%">
+
+        <div class="task">
+            <div class="task-detail">
+                <div class="task-image">
+                    <img src="material/images/qcoin.png" width="45px" alt="">
+                </div>
+                <div>
+                    <h4>verify and earn</h4>
+                    <div class="task-data">
+                        <img src="material/images/qcoin.png" width="20px" alt="Coin Icon">
+                        <h5>200</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="task-button" onclick="completeTask(200, 'verify.html')">🦴 claim</button>
+        </div>
+
+
+
+        <div class="coin-container">
+            <div class="task-image">
+                <img src="material/images/qcoin.png" width="80%">
+
+               
+
                 <nav class="bottom-nav">
             <a href="home.html" class="nav-item">
                 <i class="fas fa-home"></i>
